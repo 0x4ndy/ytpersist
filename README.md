@@ -10,6 +10,9 @@ pytube==11.0.1
 
 ## Usage
 ```python
+from ytpersist.ytpersist import YTPersist
+from ytpersist.helper import FileFormat
+
 yt_persist = YTPersist("<youtube_url>")
 yt_persist.download("<local_directory>", "<file_name>", FileFormat.MP3)
 ```
