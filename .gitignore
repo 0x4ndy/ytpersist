@@ -136,3 +136,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Test files
+YTPersist - test mp4 file.mp3
+YTPersist - test mp4 file.mp4
