@@ -7,3 +7,9 @@ pytest==6.2.4
 moviepy==1.0.3
 pytube==11.0.1
 ```
+
+## Usage
+```python
+yt_persist = YTPersist("<youtube_url>")
+yt_persist.download("<local_directory>", "<file_name>", FileFormat.MP3)
+```
