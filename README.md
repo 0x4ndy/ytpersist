@@ -16,3 +16,6 @@ from ytpersist.helper import FileFormat
 yt_persist = YTPersist("<youtube_url>")
 yt_persist.download("<local_directory>", "<file_name>", FileFormat.MP3)
 ```
+
+## Code
+Check the code [here](https://github.com/0x4ndy/ytpersist)
